@@ -4,13 +4,15 @@ import util as ut
 
 cam=int(raw_input("Enter Camera Index : "))
 cap=cv2.VideoCapture(cam)
+train_folder=raw_input("Enter Train Folder name : ")
 i=1
 j=1
 name=""
+
 while(cap.isOpened()):
 	_,img=cap.read()
 	gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
-	ret,th1 = cv2.threshold(gray.copy(),20,255,cv2.THRESH_BINARY)
+	ret,th1 = cv2.threshold(gray.copy(),130,255,cv2.THRESH_BINARY)
 	_,contours,hierarchy = cv2.findContours(th1.copy(),cv2.RETR_EXTERNAL, 2)
 	cnt=ut.getMaxContour(contours,4000)
 	if cnt!=None:
@@ -26,8 +28,8 @@ while(cap.isOpened()):
 		break
 	if k == ord('s'):
 		name=str(i)+"_"+str(j)+".jpg"
-		cv2.imwrite('TrainData/'+name,imgT)
-		if(j<20):
+		cv2.imwrite(train_folder+'/'+name,imgT)
+		if(j<40):
 			j+=1
 		else:
 			while(0xFF & cv2.waitKey(0)!=ord('n')):
