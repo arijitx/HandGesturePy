@@ -27,10 +27,56 @@ This project is inspired from http://research.microsoft.com/pubs/220845/depth4fr
 ![alt tag](https://github.com/zed41/HandGesturePy/blob/master/TrainData2/9_1.jpg)
 
 ##Training Data Accuracy
-  We use 10 images from each gesture to train our model and the other 10 x 9 images we predict with  our trained model
-  
 
- ![](https://github.com/zed41/HandGesturePy/blob/master/ScrenShots/Screenshot%20from%202016-05-31%2019_35_51.png)
+Number of Class : 9
+Number of Item per Class : 20
+Folder Name : TrainData2
+Number of Cross validation Folds : 20
+
+========================================================
++													   +
++				    MODEL EVALUATION				   +
++													   +
+========================================================
+
+
+----------------------- accuracy -----------------------
+Mean    :    0.938888888889
+Max     :    1.0
+Min     :    0.666666666667
+----------------------- f1_macro -----------------------
+Mean    :    0.921296296296
+Max     :    1.0
+Min     :    0.611111111111
+----------------------- f1_micro -----------------------
+Mean    :    0.938888888889
+Max     :    1.0
+Min     :    0.666666666667
+----------------------- precision_macro ----------------
+Mean    :    0.912962962963
+Max     :    1.0
+Min     :    0.592592592593
+----------------------- precision_micro ----------------
+Mean    :    0.938888888889
+Max     :    1.0
+Min     :    0.666666666667
+----------------------- precision_weighted -------------
+Mean    :    0.912962962963
+Max     :    1.0
+Min     :    0.592592592593
+----------------------- recall_macro -------------------
+Mean    :    0.938888888889
+Max     :    1.0
+Min     :    0.666666666667
+----------------------- recall_micro -------------------
+Mean    :    0.938888888889
+Max     :    1.0
+Min     :    0.666666666667
+----------------------- recall_weighted ----------------
+Mean    :    0.938888888889
+Max     :    1.0
+Min     :    0.666666666667
+
  
 ##FLOWChart
 ![](https://github.com/zed41/HandGesturePy/blob/master/ScrenShots/FLOWCHART.png)
