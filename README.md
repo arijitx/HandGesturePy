@@ -27,7 +27,7 @@ This project is inspired from http://research.microsoft.com/pubs/220845/depth4fr
 ![alt tag](https://github.com/zed41/HandGesturePy/blob/master/TrainData2/9_1.jpg)
 
 ##Training Data Accuracy
-
+<pre>
 Number of Class : 9
 Number of Item per Class : 20
 Folder Name : TrainData2
@@ -76,7 +76,7 @@ Min     :    0.666666666667
 Mean    :    0.938888888889
 Max     :    1.0
 Min     :    0.666666666667
-
+</pre>
  
 ##FLOWChart
 ![](https://github.com/zed41/HandGesturePy/blob/master/ScrenShots/FLOWCHART.png)
