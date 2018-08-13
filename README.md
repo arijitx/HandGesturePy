@@ -10,7 +10,7 @@ This project is inspired from http://research.microsoft.com/pubs/220845/depth4fr
 ![](https://raw.githubusercontent.com/arijitx/HandGesturePy/master/ScrenShots/cam_different.png)
 
 ## Final Setup
-![](https://github.com/zarijitx/HandGesturePy/tree/master/ScrenShots/final_setup.jpg)
+![](https://github.com/arijitx/HandGesturePy/tree/master/ScrenShots/final_setup.jpg)
 
 ## Project Modules
 ![](https://raw.githubusercontent.com/arijitx/HandGesturePy/master/ScrenShots/project_modules.png)
@@ -83,8 +83,8 @@ Min     :    0.666666666667
 
 ## Steps
 ![](https://raw.githubusercontent.com/arijitx/HandGesturePy/master/ScrenShots/STEP1.png)
-![](https://raw.githubusercontent.com/arijitx/HandGesturePy/master/ScrenShots/STEP 2.png)
-![](https://raw.githubusercontent.com/arijitx/HandGesturePy/master/ScrenShots/STEP 3.png)
+![](https://raw.githubusercontent.com/arijitx/HandGesturePy/master/ScrenShots/STEP2.png)
+![](https://raw.githubusercontent.com/arijitx/HandGesturePy/master/ScrenShots/STEP3.png)
 
 ## Applications
 
